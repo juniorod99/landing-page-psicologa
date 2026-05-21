@@ -1,0 +1,59 @@
+/* xxs = 0.75rem
+xs = 1rem
+s = 1.125rem
+m = 1.25rem
+l = 1.5rem
+xl = 2rem
+xxl = 4rem */
+
+.font-l-b {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--dark-1);
+}
+
+.font-l-r {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--dark-2);
+  text-align: center;
+}
+
+.font-m-r {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--dark-2);
+}
+
+.font-xl-sb {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--dark-1);
+}
+
+.font-xxl-sb {
+  font-size: 6rem;
+  font-weight: 600;
+  color: var(--dark-1);
+}
+@media screen and (max-width: 600px) {
+  .font-l-b {
+    font-size: 1.25rem;
+  }
+
+  .font-l-r {
+    font-size: 1.125rem;
+  }
+
+  .font-m-r {
+    font-size: 1.125rem;
+  }
+
+  .font-xl-sb {
+    font-size: 2rem;
+  }
+
+  .font-xxl-sb {
+    font-size: 2.75rem;
+  }
+}

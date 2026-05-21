@@ -1,0 +1,155 @@
+@import url("fonts.css");
+@import url("header.css ");
+@import url("home.css");
+@import url("about.css");
+@import url("services.css");
+@import url("data.css");
+@import url("support.css");
+@import url("adoptions.css");
+@import url("donation.css");
+@import url("partners.css");
+@import url("team.css");
+@import url("testimonials.css");
+@import url("contact.css");
+@import url("follow.css");
+@import url("faq.css");
+@import url("footer.css");
+@import url("typography.css");
+
+:root {
+  --primary-1: #cf440c;
+  --primary-2: #f36b34;
+  --primary-3: #ff8656;
+  --primary-4: #ffb69a;
+  --primary-5: #ffdbcc;
+
+  --secondary-1: #ffd75f;
+  --secondary-2: #ffe599;
+  --secondary-3: #ffedb8;
+  --secondary-4: #fff6db;
+
+  --dark-1: #1c1c1c;
+  --dark-2: #4c4c4c;
+  --dark-3: #b5b5b5;
+  --dark-4: #e6e6e6;
+  --dark-5: #ededed;
+
+  --neutral-1: #f5eee5;
+  --neutral-2: #fffdfb;
+  --neutral-3: #ffffff;
+
+  --dark-blue: #1d3551;
+  --brown: #cc7f62;
+  --brown-light: #f2e4d7;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1440px;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gap {
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
+
+.btn_default {
+  background-color: #ccc;
+  padding: 14.5px 24px;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--dark-1);
+  background-color: var(--primary-3);
+  transition: 0.3s;
+}
+
+.btn_default:hover {
+  background-color: var(--primary-2);
+}
+
+.btn_default.v2 {
+  background-color: var(--secondary-4);
+  border: 2px solid var(--secondary-2);
+}
+
+.btn_default.v2:hover {
+  background-color: var(--secondary-3);
+  border-color: var(--secondary-1);
+}
+
+.btn_full {
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+}
+
+.section_title {
+  font-family: "Original", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--dark-blue);
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.section_subtitle {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--brown);
+  letter-spacing: 0.15em;
+  margin-bottom: 16px;
+}
+
+.mb_section_title {
+  margin-bottom: 64px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .gap {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .section_title {
+    font-size: 2rem;
+  }
+
+  .mb_section_title {
+    margin-bottom: 48px;
+  }
+}
