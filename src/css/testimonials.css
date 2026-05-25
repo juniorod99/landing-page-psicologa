@@ -58,6 +58,9 @@
 }
 
 @media screen and (max-width: 850px) {
+  .testimonials_content .section_title {
+    margin-bottom: 34px;
+  }
   .testimonials_grid {
     grid-template-columns: 1fr;
     gap: 16px;
