@@ -1,0 +1,55 @@
+#services {
+  background: rgba(242, 228, 215, 0.33);
+}
+
+.services_content > h6,
+.services_content > h2 {
+  text-align: center;
+}
+
+.services_content > h2 {
+  margin-bottom: 70px;
+}
+
+.services_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+}
+
+.services_grid .service {
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.services_grid .service .icon_wrapper {
+  display: inline-block;
+  padding: 14px;
+  background: rgba(242, 228, 215, 0.33);
+  border-radius: 14px;
+  margin-bottom: 20px;
+}
+
+.services_grid .service h5 {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--dark-blue);
+  margin-bottom: 12px;
+}
+
+.services_grid .service p {
+  font-weight: 400;
+  font-size: 0.87rem;
+  color: #5c5c5c;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 750px) {
+  .services_content > h2 {
+    margin-bottom: 40px;
+  }
+  .services_grid {
+    grid-template-columns: 1fr;
+  }
+}
