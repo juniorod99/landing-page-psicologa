@@ -24,7 +24,7 @@
 .hero_bg {
   position: absolute;
   inset: 0;
-  background-image: url(/src/images/hero_section.png);
+  background-image: url(../../src/images/hero_section.png);
   /* background-size: cover; */
   background-position: center;
   background-repeat: no-repeat;
