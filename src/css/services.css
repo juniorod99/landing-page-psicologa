@@ -1,5 +1,7 @@
 #services {
   background: rgba(242, 228, 215, 0.33);
+  padding-top: 112px;
+  box-shadow: inset 0 -100px #fff;
 }
 
 .services_content > h6,
@@ -45,11 +47,41 @@
   line-height: 1.5;
 }
 
+.services_contact {
+  margin-top: 133px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  /* padding: 100px; */
+  padding: clamp(0.75rem, 4vw, 6rem);
+  border-radius: 10px;
+  background-color: var(--dark-blue);
+}
+
+.services_contact h4 {
+  color: #fff;
+  font-size: clamp(1.25rem, 0.5rem + 2vw, 2rem);
+  font-weight: 600;
+  max-width: 23ch;
+}
+
+.services_contact .contact_button {
+  color: var(--dark-blue);
+  background-color: #fff;
+  font-weight: 400;
+}
+
 @media screen and (max-width: 750px) {
   .services_content > h2 {
     margin-bottom: 40px;
   }
   .services_grid {
     grid-template-columns: 1fr;
+  }
+  .services_contact {
+    flex-direction: column;
+    margin-top: 90px;
+    text-align: center;
   }
 }

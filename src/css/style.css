@@ -1,36 +1,17 @@
 @import url("fonts.css");
 @import url("header.css ");
+@import url("hero.css ");
+@import url("beneficios.css");
+@import url("about.css");
 @import url("services.css");
 @import url("experience.css");
 @import url("testimonials.css");
 @import url("contact.css");
-@import url("follow.css");
 @import url("faq.css");
 @import url("footer.css");
 @import url("typography.css");
 
 :root {
-  --primary-1: #cf440c;
-  --primary-2: #f36b34;
-  --primary-3: #ff8656;
-  --primary-4: #ffb69a;
-  --primary-5: #ffdbcc;
-
-  --secondary-1: #ffd75f;
-  --secondary-2: #ffe599;
-  --secondary-3: #ffedb8;
-  --secondary-4: #fff6db;
-
-  --dark-1: #1c1c1c;
-  --dark-2: #4c4c4c;
-  --dark-3: #b5b5b5;
-  --dark-4: #e6e6e6;
-  --dark-5: #ededed;
-
-  --neutral-1: #f5eee5;
-  --neutral-2: #fffdfb;
-  --neutral-3: #ffffff;
-
   --dark-blue: #1d3551;
   --brown: #cc7f62;
   --brown-light: #f2e4d7;
@@ -60,7 +41,9 @@ ul {
 }
 
 .container {
-  max-width: 1440px;
+  width: 100%;
+  max-width: 1200px;
+  /* max-width: 1440px; */
   padding-left: 40px;
   padding-right: 40px;
   box-sizing: border-box;
@@ -125,6 +108,27 @@ ul {
 
 .mb_section_title {
   margin-bottom: 64px;
+}
+
+.contact_button {
+  display: inline-flex;
+  align-items: center;
+  gap: 13px;
+  padding: 16px 32px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.contact_button i {
+  font-size: 1.25rem;
+}
+
+@media screen and (max-width: 700px) {
+  .contact_button {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 600px) {

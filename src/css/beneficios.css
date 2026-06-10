@@ -1,0 +1,42 @@
+.beneficios {
+  position: relative;
+}
+.beneficios_wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 50px; */
+  background-color: #fff;
+  border: 1px solid var(--brown-light);
+  border-radius: 6px;
+  padding: 50px 130px;
+  z-index: 10;
+  transform: translateY(-90px);
+  text-align: center;
+}
+
+.beneficios_wrapper .item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.beneficios_wrapper .item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 15%;
+  height: 80%;
+  width: 1px;
+  background: var(--brown);
+}
+
+.beneficios_wrapper .item p {
+  max-width: 19ch;
+  font-size: 1rem;
+  color: var(--dark-blue);
+  line-height: 1.5;
+}

@@ -62,7 +62,7 @@
   left: -20px;
   right: 40px;
   bottom: 40px;
-  border: 2px solid var(--brown);
+  border: 2px solid var(--brown-light);
   border-top-left-radius: 66px;
   z-index: -999;
 }

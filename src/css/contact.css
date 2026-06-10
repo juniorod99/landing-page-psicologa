@@ -53,22 +53,13 @@
   margin-top: 4px;
 }
 
-.contact_button {
-  display: inline-flex;
-  align-items: center;
-  gap: 13px;
-  padding: 16px 32px;
+.contact_box .contact_button {
   color: #fff;
-  border-radius: 8px;
   background-color: var(--dark-blue);
-  transition: all 0.3s ease;
 }
 
-.contact_button:hover {
+.contact_box .contact_button:hover {
   background-color: #28486d;
-}
-.contact_button i {
-  font-size: 1.25rem;
 }
 
 @media screen and (max-width: 900px) {
@@ -83,11 +74,6 @@
   }
   .contact_box {
     gap: 50px;
-  }
-
-  .contact_button {
-    display: flex;
-    justify-content: center;
   }
 
   .contact_info .text span {

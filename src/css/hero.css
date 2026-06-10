@@ -1,0 +1,47 @@
+.hero {
+  position: relative;
+  min-height: 70svh;
+  display: flex;
+  align-items: center;
+  background-color: #fee6d7;
+  /* background-color: rgba(254, 230, 215, 1); */
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    90deg,
+    #fee6d7 0%,
+    rgba(244, 230, 219, 0.95) 25%,
+    rgba(244, 230, 219, 0.5) 45%,
+    rgba(244, 230, 219, 0) 70%
+  );
+
+  z-index: 0;
+}
+.hero_bg {
+  position: absolute;
+  inset: 0;
+  background-image: url(/src/images/hero_section.png);
+  /* background-size: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero_content {
+  position: relative;
+  max-width: 540px;
+}
+
+.hero_content p {
+  color: var(--dark-blue);
+  line-height: 1.5;
+  font-size: 1.125rem;
+  margin-bottom: 38px;
+}
+
+.hero_content .contact_button {
+  background-color: var(--brown);
+  color: #fff;
+}
