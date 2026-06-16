@@ -10,6 +10,7 @@
 @import url("faq.css");
 @import url("footer.css");
 @import url("typography.css");
+@import url("scroll.css");
 
 :root {
   --dark-blue: #1d3551;
@@ -138,8 +139,8 @@ ul {
   }
 
   .gap {
-    padding-top: 56px;
-    padding-bottom: 56px;
+    padding-top: 72px;
+    padding-bottom: 72px;
   }
 
   .section_title {
