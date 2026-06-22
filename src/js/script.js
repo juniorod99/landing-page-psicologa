@@ -99,6 +99,3 @@ const counterObs = new IntersectionObserver(
   { threshold: 0.5 },
 );
 document.querySelectorAll(".count").forEach((el) => counterObs.observe(el));
-
-// Scroll
-const linksInternos = document.querySelectorAll("");

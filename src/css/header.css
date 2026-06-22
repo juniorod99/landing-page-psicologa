@@ -4,7 +4,13 @@
   left: 0;
   right: 0;
   z-index: 1000;
-  background: transparent;
+  background: #fee6d7;
+  background: linear-gradient(
+    180deg,
+    rgba(254, 230, 215, 1) 0%,
+    rgba(254, 230, 215, 0.5) 60%,
+    rgba(254, 230, 215, 0) 100%
+  );
   transition:
     background-color 0.3s ease,
     backdrop-filter 0.3s ease,
