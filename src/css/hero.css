@@ -24,7 +24,7 @@
 .hero_bg {
   position: absolute;
   inset: 0;
-  background-image: url(../../src/images/hero_section.png);
+  background-image: url(../../src/images/hero_section3.png);
   /* background-size: cover; */
   background-position: center;
   background-repeat: no-repeat;
@@ -44,4 +44,10 @@
 .hero_content .contact_button {
   background-color: var(--brown);
   color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+  .hero_content {
+    max-width: 440px;
+  }
 }

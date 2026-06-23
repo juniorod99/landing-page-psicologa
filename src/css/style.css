@@ -14,9 +14,11 @@
 @import url("scroll.css");
 
 :root {
+  --white: #ffffff;
   --dark-blue: #1d3551;
   --brown: #cc7f62;
   --brown-light: #f2e4d7;
+  --transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 * {
@@ -40,6 +42,20 @@ a {
 }
 ul {
   list-style: none;
+}
+
+@keyframes waPulse {
+  0%,
+  100% {
+    box-shadow:
+      0 6px 22px rgba(37, 211, 102, 0.42),
+      0 0 0 0 rgba(37, 211, 102, 0.28);
+  }
+  50% {
+    box-shadow:
+      0 6px 22px rgba(37, 211, 102, 0.42),
+      0 0 0 10px rgba(37, 211, 102, 0);
+  }
 }
 
 .container {
@@ -124,6 +140,28 @@ ul {
 
 .contact_button i {
   font-size: 1.25rem;
+}
+
+.wa-float {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 900;
+  width: 54px;
+  height: 54px;
+  background: #25d366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 22px rgba(37, 211, 102, 0.42);
+  transition: var(--transition);
+  animation: waPulse 3s ease-in-out infinite;
+}
+
+.wa-float i {
+  font-size: 1.55rem;
+  color: var(--white);
 }
 
 @media screen and (max-width: 700px) {
