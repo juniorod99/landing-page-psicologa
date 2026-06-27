@@ -1,12 +1,14 @@
-.hero {
+#hero {
   position: relative;
   min-height: 70svh;
   display: flex;
   align-items: center;
   background-color: #fee6d7;
   /* background-color: rgba(254, 230, 215, 1); */
+  padding-top: 112px;
+  padding-bottom: 112px;
 }
-.hero::before {
+#hero::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -24,10 +26,10 @@
 .hero_bg {
   position: absolute;
   inset: 0;
-  background-image: url(../../src/images/hero_section3.png);
-  /* background-size: cover; */
-  background-position: center;
+  background-image: url(../../src/images/teste2.png);
+  background-position: center top;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .hero_content {
   position: relative;
@@ -49,5 +51,19 @@
 @media screen and (max-width: 900px) {
   .hero_content {
     max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #hero {
+    padding-bottom: 150px;
+  }
+  .hero_content {
+    padding-top: 300px;
+  }
+  .hero_bg {
+    background-image: url(../../src/images/head-mobile4.png);
+    background-size: cover;
+    background-position: center;
   }
 }

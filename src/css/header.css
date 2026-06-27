@@ -3,8 +3,6 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
-  background: #fee6d7;
   background: linear-gradient(
     180deg,
     rgba(254, 230, 215, 1) 0%,
@@ -34,7 +32,6 @@
 
 #nav_list {
   display: flex;
-  list-style: none;
   gap: 8px;
 }
 
@@ -91,9 +88,7 @@
     width: 100%;
     top: 76px;
     right: 0px;
-    /* background: var(--brown-light); */
     background: linear-gradient(to right, #f3d7c6 60%, transparent), #f3d7c6;
-
     z-index: 1000;
     text-align: center;
     height: 0px;
