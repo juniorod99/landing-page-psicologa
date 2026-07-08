@@ -1,4 +1,4 @@
-.experience_content > h6,
+.experience_content > span,
 .experience_content > h2 {
   text-align: center;
 }
@@ -22,14 +22,15 @@
 .experience_list .item {
 }
 
-.experience_list .item h5 {
+.experience_list .item span {
+  display: block;
   font-size: 1.125rem;
   font-weight: 700;
   color: var(--dark-blue);
   margin-bottom: 8px;
 }
 
-.experience_list .item h5::before {
+.experience_list .item span::before {
   content: "";
   display: block;
   width: 62px;

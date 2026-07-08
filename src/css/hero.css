@@ -26,7 +26,7 @@
 .hero_bg {
   position: absolute;
   inset: 0;
-  background-image: url(../../src/images/teste2.png);
+  background-image: url(../../src/images/hero_desktop.webp);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,7 +62,7 @@
     padding-top: 300px;
   }
   .hero_bg {
-    background-image: url(../../src/images/head-mobile4.png);
+    background-image: url(../../src/images/hero_mobile.webp);
     background-size: cover;
     background-position: center;
   }

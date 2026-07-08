@@ -77,7 +77,7 @@
   width: 40px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 990px) {
   #navbar {
     padding: 20px 0px;
   }
@@ -104,12 +104,7 @@
     overflow-y: auto;
   }
 
-  /* #nav_list .nav_item {
-    margin: 32px 24px;
-  } */
-
   #nav_list a {
-    /* margin: 0 1rem; */
     padding: 22px 24px;
     display: block;
     font-size: 1.125rem;

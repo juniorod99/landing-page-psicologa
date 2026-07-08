@@ -32,6 +32,12 @@ html {
   scroll-behavior: smooth;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 button {
   background-color: transparent;
   border: none;
@@ -122,6 +128,7 @@ ul {
   color: var(--brown);
   letter-spacing: 0.15em;
   margin-bottom: 16px;
+  display: block;
 }
 
 .mb_section_title {

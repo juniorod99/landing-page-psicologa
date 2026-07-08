@@ -60,7 +60,9 @@ footer {
   font-size: 1.125rem;
 }
 
-.footer_content h5 {
+.footer_content .links span,
+.footer_content .contato span {
+  display: block;
   font-size: 0.74rem;
   font-weight: 700;
   letter-spacing: 0.15em;
@@ -78,7 +80,9 @@ footer {
 
 .footer_content .links ul a,
 .footer_content .contato ul a {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   color: #ccc;
   font-size: 0.86rem;
   transition:
