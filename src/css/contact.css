@@ -31,9 +31,9 @@
   border-radius: 13px;
 }
 
-.contact_info .icon i {
-  font-size: 1.25rem;
-  color: var(--dark-blue);
+.contact_info .icon img {
+  width: 24px;
+  height: 24px;
 }
 
 .contact_info .text span {

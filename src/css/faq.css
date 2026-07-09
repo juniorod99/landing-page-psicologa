@@ -118,8 +118,9 @@
 }
 
 .arrow {
+  background-position: center;
+  background-repeat: no-repeat;
   transition: transform 0.2s linear;
-  font-size: 0.86rem;
 }
 
 .accordion_item.active .arrow {
