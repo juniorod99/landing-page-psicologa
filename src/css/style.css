@@ -10,7 +10,6 @@
 @import url("contact.css");
 @import url("faq.css");
 @import url("footer.css");
-@import url("typography.css");
 @import url("scroll.css");
 
 :root {
@@ -66,7 +65,6 @@ ul {
 .container {
   width: 100%;
   max-width: 1200px;
-  /* max-width: 1440px; */
   padding-left: 40px;
   padding-right: 40px;
   box-sizing: border-box;

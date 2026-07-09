@@ -112,9 +112,6 @@ footer {
 
 @media screen and (max-width: 900px) {
   .footer_content {
-    /* padding-top: 40px;
-    padding-bottom: 40px;
-    display: grid; */
     grid-template-columns: 1fr 1fr;
     gap: 60px;
   }
@@ -133,9 +130,6 @@ footer {
 
 @media screen and (max-width: 600px) {
   .footer_content {
-    /* padding-top: 40px;
-    padding-bottom: 40px;
-    display: grid; */
     grid-template-columns: 1fr;
     gap: 60px;
   }

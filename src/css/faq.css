@@ -85,10 +85,6 @@
 }
 
 .accordion_header span {
-  /* max-width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis; */
   flex: 1;
   min-height: 0;
   overflow-wrap: break-word;
@@ -103,7 +99,6 @@
   font-size: 0.86rem;
   color: #5c5c5c;
   line-height: 1.4;
-  /* opacity: 0; */
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.45s ease;
@@ -114,7 +109,6 @@
 }
 .accordion_item.active .accordion_body {
   max-height: 100%;
-  /* opacity: 1; */
 }
 
 .arrow {

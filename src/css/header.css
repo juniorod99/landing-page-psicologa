@@ -35,10 +35,6 @@
   gap: 8px;
 }
 
-#nav_list li:last-child {
-  /* display: none; */
-}
-
 .nav_item a {
   color: var(--dark-blue);
   font-weight: 400;

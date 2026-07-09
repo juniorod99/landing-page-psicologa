@@ -55,7 +55,6 @@
   align-items: center;
   justify-content: space-between;
   gap: 18px;
-  /* padding: 100px; */
   padding: clamp(0.75rem, 4vw, 6rem);
   border-radius: 10px;
   background-color: var(--dark-blue);
