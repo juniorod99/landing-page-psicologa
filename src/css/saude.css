@@ -29,8 +29,19 @@
   line-height: 1.7;
 }
 
+.saude_text ul{
+  list-style: inside;
+  color: #5c5c5c;
+  font-size: 0.88rem;
+  line-height: 1.7;
+}
+
 .saude_text p:not(:last-child) {
   margin-bottom: 15px;
+}
+
+.saude_text p:nth-child(2){
+  margin-bottom: 0px;
 }
 
 .saude_text .contact_button {
